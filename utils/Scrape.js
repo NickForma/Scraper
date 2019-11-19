@@ -1,5 +1,4 @@
 const Axios = require("axios");
-// const URL = "https://www.thebeaverton.com/news/national/";
 const URL = "https://www.thestar.com/news/canada.html"
 
 const Scrape = {

@@ -1,0 +1,116 @@
+body,
+html,
+main {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+main,
+footer {
+  padding-left: 300px;
+}
+
+
+#loaderWrapper {
+  margin-top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.articleCol {
+  display: none;
+  margin-top: 3em;
+}
+
+.collection-item {
+  min-height: 10em;
+}
+
+.deleteComment {
+  cursor: pointer;
+}
+
+.dateSpan {
+  color: rgba(0, 0, 0, 0.452);
+}
+
+.card {
+  height: 100%;
+  margin-top: 3em;
+}
+
+.card-content:nth-child(1) {
+  height: 75%;
+}
+
+.card-content:nth-child(2) {
+  -webkit-box-shadow: 0px -1px 3px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px -1px 3px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px -1px 3px -1px rgba(0, 0, 0, 0.2);
+  margin-top: 2em;
+
+  justify-content: flex-end;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.activator:hover {
+  cursor: pointer;
+}
+
+.card .card-content:nth-of-type(2) span {
+  color: firebrick;
+}
+
+.container {
+  height: 100%;
+}
+
+p#articleInfo {
+  margin-top: 1em;
+  width: 75%;
+}
+
+.userIcon {
+  padding-right: 1em;
+}
+
+.material-icons.prefix.active {
+  color: firebrick;
+}
+
+.landing {
+  text-align: center;
+}
+
+.readmore {
+  padding-left: 0.5em;
+}
+
+.material-icons {
+  color: rgb(229, 32, 39);
+  font-size: 34px;
+}
+
+#newCommentModal {
+  margin: 1em;
+}
+
+#submitForm {
+  margin-top: 3em;
+}
+
+.withlove {
+  text-align: center;
+}
+.user-view {
+  height: auto;
+}
+
+.background img {
+  width: 300px;
+  height: auto;
+}
